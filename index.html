@@ -3,9 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travel Reservation Form</title>
+
+    <style>
+        .t1{
+            font-size: 25px;
+        }
+        .t2{
+            font-size: 25px;
+        }
+        .t3{
+             height: 29px;
+            width: 310px;
+        }
+        .t4{
+             height: 29px;
+            width: 310px;
+        }
+        .t5 {
+            height: 29px;
+            width: 310px;
+
+        }
+        .t6 {
+            height: 29px;
+            width: 310px;
+
+        }
+        .i5{
+            height: 135px;
+            width: 510px;
+
+        }
+        .i6{
+            height: 135px;
+            width: 510px;
+
+        }
+        .but{
+            height: 35px;
+            width: 110px;
+            background-color: rgb(81, 215, 81);
+            color: white;
+            margin-left: 200px;
+            border: none;
+            border-radius:7px;
+            
+
+
+        }
+        .d8 {
+            margin-left: 20px;
+        }
+
+        .container{
+            display: flex;
+            gap: 5px;
+        }
+
+    </style>
 </head>
-<body>
+
+<body class ="d8">
+    
+    <h1 class="head" >
+        Tour Reservation Form
+    </h1>
+    <p class="p1">
+        Let's know what you are interested to see!
+    </p><br><hr><br>
+    
+     <label for="txt">Full Name</label><br>
+    <input class="t1" type="text" placeholder=" " id="txt" >
+    <input class="t2" type="text"><br><br>
+
+    <div class="container">
+   <div>
+     <label for="txt2">Email</label><br>
+    <input class="t3" type="text" placeholder="ex: myname@example.com " id="txt2" >
+   </div>
+    <div>
+        <label for="txt2">Phone Number</label><br>
+    <input class="t4" type="text" placeholder="(000) 000-000" ><br><br>
+    </div>
+    </div>
+    
+    <label for="txt3">When are you planning to visit</label><br>
+    <input class="t5" type="date" placeholder=" " id="txt3" ><br><br>
+
+    
+    <label for="txt4">How many people are in your group?</label><br>
+    <input class="t6" type="text" placeholder="1 " id="txt4" ><br><br>
+
+    <label for="txt5">Which tour or events are you most interested in?</label><br>
+    <input class="" type="checkbox" placeholder=" " id="txt5" >
+    <label for="txt5">Revolution was just beginning</label><br>
+    <input class="" type="checkbox" placeholder=" " id="txt5" >
+    <label for="txt5">Transcendentalism</label><br>
+    <input class="" type="checkbox" placeholder=" " id="txt5" >
+    <label for="txt5">Custom</label><br>
+     <input class="" type="checkbox" placeholder=" " id="txt5" >
+    <label for="txt5">Ghosts in the Gloaming</label><br>
+     <input class="" type="checkbox" placeholder=" " id="txt5" >
+    <label for="txt5">Gateposts, Grapes & Graveyards</label><br>
+     <input class="" type="checkbox" placeholder=" " id="txt5" >
+    <label for="txt5">Tavem Life</label><br><br>
+
+
+
+    <label for="txt6">What is the best way to contact you?</label><br>
+    <input class="" type="checkbox" placeholder=" " id="txt6" >
+    <label for="txt6">Phone</label><br>
+    <input class="" type="checkbox" placeholder=" " id="txt6" >
+    <label for="txt6">Email</label><br>
+    <input class="" type="checkbox" placeholder=" " id="txt6" >
+    <label for="txt6">Either</label><br><br>
+
+
+    <label for="txt7">If phone, when is the best of day for a call-back?</label><br>
+    <input class="" type="radio" name=" same" placeholder=" " id="txt7" >
+    <label for="txt7">8-11 am</label><br>
+    <input class="" type="radio" name=" same"  placeholder=" " id="txt7" >
+    <label for="txt7">12-4 pm</label><br>
+    <input class="" type="radio" name=" same"  placeholder=" " id="txt7" >
+    <label for="txt7">6-10pm</label><br><br>
+
+
+    <label for="no1">Anything else we should know?</label><br>
+    <textarea class="i5" name=" " id="no1" placeholder="type "></textarea><br><br>
+
+    <label for="no2">And last, how did you hear about us??</label><br>
+    <textarea class="i6" name=" " id="no2" placeholder="type "></textarea><br><br>
+
+
+    <button class="but">Submit</button>
+
+
     
 </body>
 </html>
